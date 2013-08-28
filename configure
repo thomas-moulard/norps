@@ -1,0 +1,31 @@
+#! /bin/sh
+
+rm -f Makefile.rules
+touch Makefile.rules
+cd src && gcc -M *.c > .depends && cd ..
+touch src/.depends
+
+s=`uname -s`
+
+echo "OUT = norps" > Makefile.rules
+echo "LIB = -lmalloc_$s" >> Makefile.rules
+echo "LIBS = libmalloc_$s.a" >> Makefile.rules
+echo 'LDFLAGS = ' >> Makefile.rules
+
+case "$s" in
+NetBSD)
+	echo 'CC = gcc' >> Makefile.rules
+	echo 'CFLAGS = -fPIC -W -Wall -Werror -ansi -pedantic' >> Makefile.rules
+;;
+OSF1)
+	echo 'CC = /usr/bin/cc' >> Makefile.rules
+	echo 'CFLAGS = -fPIC -w2 -std1 -warnprotos' >> Makefile.rules
+;;
+SunOS)
+	echo 'CC = /usr/local/bin/gcc' >> Makefile.rules
+	echo 'CFLAGS = -kPIC -W -Wall -Werror -ansi -pedantic -m64' >> Makefile.rules
+;;
+*)
+	echo 'CC = gcc' >> Makefile.rules
+	echo 'CFLAGS = -fPIC -W -Wall -Werror -pedantic' >> Makefile.rules
+esac

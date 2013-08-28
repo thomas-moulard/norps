@@ -1,0 +1,2 @@
+open libc.so as t
+close t

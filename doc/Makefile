@@ -1,0 +1,2 @@
+doc:
+	cd .. && doxygen Doxyfile

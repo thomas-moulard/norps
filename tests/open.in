@@ -1,0 +1,7 @@
+open libc.so as t
+open libc.so as t2
+open libz.so as t2
+libs
+close t2
+close t2
+close t

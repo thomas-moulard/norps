@@ -1,0 +1,4 @@
+* parser les lignes avec espace a la fin
+* corriger leaks mem des errparam
+* verifier priorite erreurs ds open
+* verifier leaks memoires (get_args...)

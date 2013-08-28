@@ -1,0 +1,110 @@
+call.o: call.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/dlfcn.h common.h
+close.o: close.c /usr/include/dlfcn.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/byte_swap.h /usr/include/machine/bswap.h \
+  /usr/include/sys/bswap.h /usr/include/pthread_types.h \
+  /usr/include/sys/null.h /usr/include/stdio.h common.h
+errors.o: errors.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h common.h
+exit.o: exit.c /usr/include/stdlib.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/null.h common.h
+get.o: get.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  /usr/include/dlfcn.h common.h
+io.o: io.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdio.h /usr/include/stdlib.h \
+  common.h
+libs.o: libs.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h common.h
+main.o: main.c /usr/include/fcntl.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/machine/ansi.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/stat.h \
+  /usr/include/sys/time.h /usr/include/time.h /usr/include/sys/null.h \
+  /usr/include/unistd.h /usr/include/sys/unistd.h /usr/include/stdio.h \
+  common.h
+open.o: open.c /usr/include/dlfcn.h /usr/include/sys/featuretest.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/stdlib.h \
+  /usr/include/sys/types.h /usr/include/machine/types.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/ansi.h /usr/include/machine/endian.h \
+  /usr/include/sys/endian.h /usr/include/machine/endian_machdep.h \
+  /usr/include/machine/byte_swap.h /usr/include/machine/bswap.h \
+  /usr/include/sys/bswap.h /usr/include/pthread_types.h \
+  /usr/include/sys/null.h /usr/include/stdio.h common.h
+parser.o: parser.c /usr/include/stdio.h /usr/include/sys/cdefs.h \
+  /usr/include/machine/cdefs.h /usr/include/sys/cdefs_elf.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/ansi.h \
+  /usr/include/machine/int_types.h /usr/include/machine/ansi.h \
+  /usr/include/sys/null.h common.h
+utils.o: utils.c /usr/include/unistd.h /usr/include/machine/ansi.h \
+  /usr/include/sys/cdefs.h /usr/include/machine/cdefs.h \
+  /usr/include/sys/cdefs_elf.h /usr/include/machine/int_types.h \
+  /usr/include/sys/featuretest.h /usr/include/sys/types.h \
+  /usr/include/machine/types.h /usr/include/sys/ansi.h \
+  /usr/include/machine/endian.h /usr/include/sys/endian.h \
+  /usr/include/machine/endian_machdep.h /usr/include/machine/byte_swap.h \
+  /usr/include/machine/bswap.h /usr/include/sys/bswap.h \
+  /usr/include/pthread_types.h /usr/include/sys/unistd.h \
+  /usr/include/sys/null.h /usr/include/stdlib.h /usr/include/stdio.h \
+  common.h

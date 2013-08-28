@@ -1,0 +1,22 @@
+open libc.so as c
+
+libs
+c::printf("toto\ttata\n");
+(void) c::printf("tutu %i\n", 22);
+
+(void) c::printf("aaaa %i\n", 45);
+
+(int) c::strlen("toto\n");
+(uint) c::strlen("toto\n");
+(short) c::strlen("toto\n");
+(ushort) c::strlen("toto\n");
+(long) c::strlen("toto\n");
+(ulong) c::strlen("toto\n");
+
+(void) c::printf("he!");
+(void) c::malloc(42);
+(void) c::printf("he!");
+
+close c
+
+exit
